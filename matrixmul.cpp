@@ -3,7 +3,7 @@
 #include <omp.h>
 
 #define N 1000 
-
+//generate 1000 X 1000 matrix of random element and then perform multiplication operation
 
 void generate_matrix(double **matrix) {
     int i, j;
